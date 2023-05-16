@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C02_Sayfa27 {
+public class C03_S28_DriverManageMethodları {
 
     public static void main(String[] args) throws InterruptedException {
 

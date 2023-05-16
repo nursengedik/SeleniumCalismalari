@@ -22,7 +22,7 @@ public class C01_Locator {
         driver.get("https://www.amazon.com/");
 
        //  2- Arama kutusuna “city bike” yazip aratin
-        //öncelikle arama kutusuna gidilir yani locator (lokeyt) edilir daha sonra arama kutusuna city bike yazdırılır
+        //öncelikle arama kutusuna gidilir yani locate (lokeyt) edilir daha sonra arama kutusuna city bike yazdırılır
         WebElement aramaKutusuElementi = driver.findElement(By.id("twotabsearchtextbox"));//locator ettik
 
         aramaKutusuElementi.sendKeys("city bike" + Keys.ENTER); //city bike yaz enter tuşunu çalıştır

@@ -45,8 +45,7 @@ public class C03_WebElementMethodlari {
         System.out.println(aramaKutusuElementi.getLocation());//nerede olduğunu piksel olarak konumu verir(279, 11)
         System.out.println(aramaKutusuElementi.getRect().getDimension());//dikdörtgen olarak özelliklerini buluyor(618, 38)
 
-
-
+        //is.Selected() web elementi seçmek için kullanılır
         Thread.sleep(3000);
         driver.close();
 

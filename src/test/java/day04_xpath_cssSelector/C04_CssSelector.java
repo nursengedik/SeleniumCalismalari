@@ -10,7 +10,7 @@ import java.time.Duration;
 public class C04_CssSelector {
     public static void main(String[] args) throws InterruptedException {
 
-      //1-  bir class
+      //1-  gerekli ayarlamalar yapılır
         System.setProperty("webdriver.chrome.driver","src/resources/chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
@@ -37,7 +37,7 @@ public class C04_CssSelector {
         }
 
         //6-  Gift Cards sekmesine basin
-        //soruda basın dediği için kaydetmeden locator (lokeyt edip) click tuşuna basarız
+        //soruda basın dediği için kaydetmeden locate (lokeyt edip) click tuşuna basarız
         driver.findElement(By.xpath("(//a[@class='nav-a  '])[4]")).click();
 
         //7-  Birthday butonuna basin

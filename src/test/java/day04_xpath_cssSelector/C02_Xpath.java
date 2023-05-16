@@ -20,7 +20,7 @@ public class C02_Xpath {
         driver.get("https://the-internet.herokuapp.com/add_remove_elements/");
 
        //2- Add Element butonuna basin
-        //burada webelement oluşturup kaydetmeden de yapabiliriz, yani istenen elementi locator (lokeyt edip)
+        //burada webelement oluşturup kaydetmeden de yapabiliriz, yani istenen elementi locate (lokeyt edip)
         //click tuşuna bastık
 
         Thread.sleep(3000);

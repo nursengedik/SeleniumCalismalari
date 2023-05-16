@@ -31,9 +31,9 @@ public class C01_RelativeLocators {
         //3 ) Relative locator’larin dogru calistigini test edin
 
         // A- tag'i img, NYC'nin altinda
-       //önce tarif edeceğim elementi locator (lokeyt) ediyorum
+       //önce tarif edeceğim elementi locate(lokeyt) ediyorum
 
-        WebElement nyc=driver.findElement(By.id("pid3_thumb"));//locator edilebiliyor, yani çalışır
+        WebElement nyc=driver.findElement(By.id("pid3_thumb"));//locate edilebiliyor, yani çalışır
         WebElement berlin1=driver.findElement(RelativeLocator.with(By.tagName("img")).below(nyc));//with=ile
         //özellikleri görünüyor ama çalışmıyor hali RelativeLocator kullanarak tarif edilir
        //biz tagname img olan, nyc'nin altında (below) olarak tarif ediyoruz

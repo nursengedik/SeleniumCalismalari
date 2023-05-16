@@ -25,14 +25,14 @@ public class C03_ZeroWebapp {
         driver.findElement(By.id("signin_button")).click();
 
         //3. Login alanine  “username” yazdirin
-        //yazdırın denildiği için locator (lokeyt) ediyoruz
+        //yazdırın denildiği için locate (lokeyt) ediyoruz
         WebElement loginKutusu= driver.findElement(By.id("user_login"));
 
         //login kutusuna "username" yazdırma
         loginKutusu.sendKeys("username");
 
         //4. Password alanina “password” yazdirin
-       //yazdırın denildiği için locator (lokeyt) ediyoruz
+       //yazdırın denildiği için locate (lokeyt) ediyoruz
 
         WebElement passwordKutusu= driver.findElement(By.id("user_password"));
 

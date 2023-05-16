@@ -23,11 +23,11 @@ public class C02_findElements {
         driver.get("https://www.automationexercise.com/");
 
         //3- Category bolumundeki elementleri locate edin
-        //öncelikle manuel olarak istenen sayfaya gitmeliyiz, CATEGORY den birini üzerine gelinir ve sağ tuş İncele
-        //(İnspect) denir, html kodlarından Ctrl+F ile classname ı ("panel-title") yazıp kontrol edilir, kategorileri
-        //veriyorsa classname locator olarak kullanılır, yani biz bu classname locator ını kullanarak ve panel-title
-        // değeriyle locator edebilirim. panel-title By.classname de boşluk içermediği için kullanılabilir
-        //3 element getireceği için findElements kullanılır
+        // öncelikle manuel olarak istenen sayfaya gitmeliyiz, CATEGORY den birinin üzerine gelinir ve sağ tuş
+        // İncele (İnspect) denir, html kodlarından Ctrl+F ile classname ı ("panel-title") yazıp kontrol edilir,
+        // kategorileri veriyorsa classname locator olarak kullanılır, yani biz bu classname locator ını kullanarak
+        // ve panel-title değeriyle locate edebilirim. panel-title By.classname de boşluk içermediği için
+        // kullanılabilir 3 element getireceği için findElements kullanılır
 
         List<WebElement> categoryElementsList =driver.findElements(By.className("panel-title"));
 

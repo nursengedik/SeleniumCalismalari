@@ -30,7 +30,7 @@ public class C01_Locator_findElement {
             ornegin amazon sitesindeki arama kutusunun unique tarif edicisi olarak
             id = "twotabsearchtextbox" kullanabiliriz
          */
-
+         //locator sırası ile Ctrl+C,F,V
         // driver a id si "twotabsearchtextbox" olan elementi bulup getir demek için "findElement (By by)"
         // (bu elementi bul) methodunu kullanıyoruz ve bize WebElement getiriyor ve biz bunu kaydetmek istiyorsak
         //eşitliğin sol tarafına WebElement data türünde bir obje oluşturmamız gerekir
@@ -49,8 +49,9 @@ public class C01_Locator_findElement {
         //                                 By : webelementi bulacagimiz locator'in turunu yazdigimiz method
         //                                 twotabsearchtextbox : unique tarif icin id attribute (etribüt) degeri
 
-        //driver a findElement yani şu elementi getir, hangi özelliğiyle id siyle,peki id si ne "twotabsearchtextbox"
-        // bu işlemle aramaKutusu benim class ıma tarif edilmiş durumdadır, arama kutusu ile ilgili istediğimiz işlemleri
+        //driver a findElement yani şu elementi getir, hangi özelliğiyle id siyle,peki id si ne?
+        // "twotabsearchtextbox" bu işlemle aramaKutusu benim class ıma tarif edilmiş durumdadır,
+        // arama kutusu ile ilgili istediğimiz işlemleri
         //yapabiliriz, sadece o elementi bulup kaydettik ama görevimizi bitirmedik
 
           /*
